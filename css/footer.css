@@ -1,0 +1,193 @@
+:root {
+  --contact-background: rgb(242, 241, 238);
+  --contact-title-number-address: rgb(115, 114, 114);
+}
+
+.main-cont{
+  width: 100%;
+  background-color: var(--contact-background);
+  height: 550px;
+}
+
+.container-contacts {
+  display: flex;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.container-contacts > div > p {
+  margin-top: 60px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 16pt;
+  color: var(--contact-title-number-address);
+}
+
+.container-contacts > div > p + p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(172, 168, 168);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container-contacts > div {
+  width: 300px;
+  height: 500px;
+}
+
+address > a[href="tel:+77778889900"],
+address > a[href="mailto:google.com"] {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  color: var(--contact-title-number-address);
+}
+
+address > a[href="tel:+77778889900"] {
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+address > a[href="mailto:google.com"] {
+  font-size: 12pt;
+}
+
+.container-contacts > div > div {
+  display: flex;
+  justify-content: space-between;
+  width: 105px;
+}
+
+.container-contacts > div > div > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.map > iframe {
+  margin-top: 60px;
+}
+
+.fquestion-photo {
+  display: flex;
+  width: 1000px;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.fquestion-photo > div > form {
+  display: block;
+  margin-top: 60px;
+  width: 301px;
+  height: 303px;
+  background-color: var(--background_up);
+  border-radius: 6px;
+}
+
+.fquestion-photo > div > form > input, .fquestion-photo > div > form > button {
+  width: 260px;
+  height: 30px;
+  margin: 0 auto;
+  display: block;
+  padding: 24px;
+  margin-top: 12px;
+  border-radius: 5px;
+  border: none;
+}
+
+.fquestion-photo > div > form > button{
+  text-align: center;
+  padding-bottom: 50px;
+  background-color: var(--button_background_red);
+}
+
+
+.fquestion-photo > div > form > span:first-child {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 24pt;
+  color: white;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-right: 19px;
+  padding-left: 30px;
+}
+
+.fquestion-photo > div > form > span ~ span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 7pt;
+  color: white;
+  padding-left: 35px;
+}
+
+.container-photos > div:nth-child(1) > img,
+.container-photos > div:nth-child(3) > img {
+  width: 151px;
+  height: 151px;
+}
+
+.container-photos > div:nth-child(2) > img {
+  width: 130px;
+  height: 308px;
+}
+
+.container-photos > div:nth-child(1) > img,
+.container-photos > div:nth-child(2) > img ,
+.container-photos > div:nth-child(3) > img {
+  border-radius: 6px;
+}
+
+.container-photos{
+  display: flex;
+}
+
+.container-photos > div:nth-child(1),
+.container-photos > div:nth-child(3){
+  display: block;
+  width: 151px;
+  height: auto;
+}
+
+.container-photos > div:nth-child(1) > img:nth-child(1),
+.container-photos > div:nth-child(3) > img:nth-child(1) {
+  margin-bottom: 6px;
+}
+
+.container-photos > div:nth-child(1){
+  margin-right: 6px;
+}
+
+.container-photos > div:nth-child(3){
+  margin-left: 6px;
+}
+
+.fquestion-photo > div ~ div{
+  margin-top: 40px;
+}
+
+.fquestion-photo > div ~ div > span {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 16pt;
+  text-align: center;
+  margin-left: 175px;
+}
+
+.end-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  margin-top: 60px;
+  background-color: rgb(194, 194, 194);
+}
+
+.end-container > nav > ul {
+  display: flex;
+}
+
+.end-container > nav > ul > li {
+  list-style-type: none;
+  margin-left: 30px;
+}

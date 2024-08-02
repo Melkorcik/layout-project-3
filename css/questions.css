@@ -1,0 +1,32 @@
+.questions {
+  width: 100%;
+  height: 400px;
+}
+
+.questions > h2 {
+  padding-left: 450px;
+  padding-top: 62px;
+  font-weight: bold;
+}
+
+.questions > div {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  width: 500px;
+  height: 41px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.questions > div > p[id="#questionText"] {
+  padding-top: 30px;
+  opacity: 0;
+}
+
+.questions > div > p ~ p {
+  opacity: 1;
+  font-size: 17pt;
+  font-weight: bold;
+}

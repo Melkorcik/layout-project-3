@@ -1,0 +1,129 @@
+:root {
+  --background-container: rgb(246, 233, 209);
+  --border-list-sizes: rgb(243, 215, 163);
+  --color-button-and-their-words: rgb(76, 76, 134);
+}
+
+.container-catalog {
+  width: 1000px;
+  height: 700px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.container-catalog > span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.container-catalog > div {
+  display: flex;
+}
+
+.container-catalog > div {
+  position: relative;
+  width: 300px;
+  height: 600px;
+  background-color: var(--background-container);
+}
+
+.options-shoes {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 2%;
+}
+
+.sizes-shoes {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 35%;
+}
+
+.container-catalog > div > .options-shoes > div > span,
+.container-catalog > div > .sizes-shoes > span {
+  padding-top: 30px;
+}
+
+.container-catalog > div > .sizes-shoes > div {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  grid-template-rows: repeat(3, 50px);
+}
+
+.container-catalog > div > .sizes-shoes > div > span {
+  text-align: center;
+  padding-top: 11px;
+  border: 1px solid var(--border-list-sizes);
+}
+
+.container-catalog > div > .options-shoes > div {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.gender {
+  width: 21px;
+  height: 21px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin-left: -40px;
+  margin-top: 70px;
+}
+
+.confirm,
+.clean {
+  margin-top: 24px;
+  width: 240px;
+  height: 60px;
+  border: none;
+  background-color: var(--background-container);
+  color: var(--color-button-and-their-words);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.box-cataog {
+  display: grid;
+  grid-template-columns: repeat(3, 190px);
+  grid-template-rows: repeat(3, 180px);
+  gap: 21px;
+  margin-left: 360px;
+}
+
+.box-cataog > div {
+  display: block;
+  width: 180px;
+}
+
+.cross-shoes {
+  width: 180px;
+  height: 130px;
+}
+
+.title-shoes {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 8pt;
+}
+
+.price {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.container-catalog > button {
+  position: absolute;
+  left: 47%;
+  padding: 15px;
+  width: 160px;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--button_background_red);
+}

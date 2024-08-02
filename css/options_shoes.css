@@ -1,0 +1,159 @@
+:root {
+  --border-box: rgb(218, 211, 211);
+  --background-form: rgb(225, 203, 175);
+}
+
+.container-options-shoes {
+  display: block;
+  width: 900px;
+  height: 760px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: var(--background-container);
+}
+
+.container-options-shoes > h2,
+.container-options-shoes > span {
+  margin-left: 31px;
+}
+
+.container-options-shoes > span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13pt;
+  color: grey;
+}
+
+.item-option-shoes-1,
+.item-option-shoes-2,
+.item-option-shoes-3 {
+  margin: 30px;
+}
+
+.item-option-shoes-1 > div {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(2, 200px);
+  gap: 101px;
+  border-top: 1px solid var(--border-box);
+  border-bottom: 1px solid var(--border-box);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.item-option-shoes-1 > div > .item-option > img {
+  width: 200px;
+  height: 160px;
+}
+
+.item-option {
+  width: 200px;
+  height: 200px;
+  z-index: 10;
+}
+
+.item-option > label > input {
+  width: 21px;
+  height: 21px;
+  margin-top: 12px;
+}
+
+.container-options-shoes > button {
+  width: 180px;
+  height: 50px;
+  background-color: var(--background-container);
+  margin-left: 621px;
+  margin-top: 621px;
+  margin-bottom: 21px;
+  border-radius: 5px;
+}
+
+.item-option-shoes-2 > div {
+  border-top: 1px solid var(--border-box);
+  border-bottom: 1px solid var(--border-box);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.item-option-shoes-2 > div > img,
+.item-option-shoes-3 > div {
+  width: 840px;
+  z-index: 3;
+  //height: 386px;
+}
+
+.box-sizes {
+  display: flex;
+  justify-content: space-between;
+  width: 840px;
+}
+
+.item-option-shoes-3 > div {
+  position: relative;
+  background-color: var(--background-form);
+  border-radius: 5px;
+}
+
+.item-option-shoes-3 > div > h3,
+.item-option-shoes-3 > div > span {
+  position: absolute;
+  left: 30px;
+  top: 50px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.item-option-shoes-3 > div > span {
+  top: 90px;
+  font-size: 12pt;
+}
+
+.item-option-shoes-3 > div > form {
+  position: absolute;
+  left: 30px;
+  top: 130px;
+}
+
+.item-option-shoes-3 > div > form > .name,
+.item-option-shoes-3 > div > form > .email {
+  width: 450px;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.item-option-shoes-3 > div > form > .email {
+  margin-top: 15px;
+}
+
+.item-option-shoes-3 > div > form > .btn-get {
+  margin-top: 31px;
+}
+
+.item-option-shoes-3 > div > form > .btn-get {
+  width: 200px;
+  padding: 15px;
+  color: white;
+  background-color: var(--button_background_red);
+  border: none;
+  border-radius: 5px;
+}
+
+.box-animate {
+  position: relative;
+}
+
+.item-option-shoes-1,
+.item-option-shoes-2,
+.item-option-shoes-3 {
+  position: absolute;
+}
+
+.item-option-shoes-1 {
+  opacity: 1;
+}
+
+.item-option-shoes-2,
+.item-option-shoes-3 {
+  opacity: 0;
+}

@@ -1,0 +1,46 @@
+.container-about_us {
+  width: 100%;
+  height: 480px;
+  margin-top: 60px;
+  background-color: var(--background_up);
+  color: white;
+}
+
+.container-about_us > article > div {
+  position: relative;
+  width: 300px;
+  margin-top: 60px;
+}
+
+.container-about_us > article > div > h2 {
+  position: absolute;
+  top: 100px;
+}
+
+.container-about_us > article {
+  display: flex;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.container-about_us > article > div > p {
+  font-size: 9pt;
+  color: white;
+  margin-top: 160px;
+}
+
+.container-about_us > article > div > .ps {
+  position: absolute;
+  left: 55%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.container-about_us > article > .img-run {
+  margin-top: 60px;
+}
+
+.container-about_us > article > .img-run > .run {
+  width: 500px;
+  height: 400px;
+}

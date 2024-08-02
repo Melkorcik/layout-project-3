@@ -1,0 +1,38 @@
+.team {
+  width: 100%;
+  height: 900px;
+  background-color: var(--background_up);
+  margin-top: 60px;
+}
+
+.team > h2 {
+  font-weight: bold;
+  padding-left: 200px;
+  padding-top: 60px;
+}
+
+.box-team > div {
+  text-align: center;
+}
+
+.team > h2,
+.box-team > div > span,
+.box-team > div > span ~ span {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.box-team {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(2, 300px);
+  gap: 90px;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 1130px;
+}
+
+.box-team > div > img {
+  width: 350px;
+  height: 300px;
+}

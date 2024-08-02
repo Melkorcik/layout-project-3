@@ -1,0 +1,117 @@
+.container-options-shoes > button:hover {
+  transition: 0.6s;
+  filter: invert(1);
+  border: none;
+}
+
+.container-options-shoes > button:not(:hover) {
+  transition: 0.6s;
+  filter: invert(0);
+}
+
+.item-option-shoes-3 > div > form > .btn-get:hover {
+  transition: 0.6s;
+  background-color: var(--button_background_hover_red);
+}
+
+.item-option-shoes-3 > div > form > .btn-get:not(:hover) {
+  transition: 0.6s;
+  background-color: var(--button_background_red);
+}
+
+.modal-footer > button:hover {
+  cursor: pointer;
+  transition: 0.6s;
+  background-color: var(--button_background_hover_red);
+}
+
+.modal-footer > button:not(:hover) {
+  transition: 0.6s;
+  background-color: var(--button_background_red);
+}
+
+.container-contacts > section > div > img:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: rgb(116, 116, 180);
+}
+
+.container-contacts > section > div > img:not(:hover) {
+  transition: 0.5s;
+}
+
+.fquestion-photo > div > form > button:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: var(--button_background_hover_red);
+}
+
+.fquestion-photo > div > form > button:not(:hover) {
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: var(--button_background_red);
+}
+
+.end-container > h3:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.end-container > h3:not(:hover) {
+  transition: 0.5s;
+  transform: scale(1);
+}
+
+.confirm:hover,
+.clean:hover {
+  transition: 0.6s;
+  background-color: var(--color-button-and-their-words);
+  color: var(--background-container);
+  border-radius: 5px;
+}
+
+.confirm:not(:hover),
+.clean:not(:hover) {
+  transition: 0.6s;
+  background-color: var(--background-container);
+  color: var(--color-button-and-their-words);
+}
+
+.box-cataog > div:hover {
+  cursor: pointer;
+  transition: 0.6s;
+  box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.2);
+}
+
+.box-cataog > div:not(:hover) {
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+header > nav > .list-options-header > li:hover {
+  cursor: pointer;
+  transition: 0.6s;
+  color: var(--button_background_hover_white);
+}
+
+header > nav > .list-options-header > li:not(:hover) {
+  cursor: pointer;
+  transition: 0.6s;
+  color: rgb(255, 255, 255);
+}
+
+.questions > div > p ~ p:hover {
+  cursor: pointer;
+}
+
+.container-advertising-up > aside > button:hover {
+  cursor: pointer;
+  transition: 0.6s;
+  background-color: var(--button_background_hover_red);
+}
+
+.container-advertising-up > aside > button:not(:hover) {
+  transition: 0.6s;
+  background-color: var(--button_background_red);
+}

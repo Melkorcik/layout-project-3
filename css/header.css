@@ -1,0 +1,37 @@
+:root {
+  --button_background_hover_white: rgb(207, 199, 199);
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1000px;
+  height: 60px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(248, 244, 244);
+  position: absolute;
+  left: 270px;
+}
+
+header > h1 {
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+header > nav > .list-options-header {
+  display: flex;
+  column-gap: 20px;
+}
+
+header > nav > .list-options-header > li {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(255, 255, 255);
+  list-style-type: none;
+}
